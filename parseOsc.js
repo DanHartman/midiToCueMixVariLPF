@@ -42,8 +42,8 @@ console.log(components.canvas + "\n\r" +
             components.slider.create
           );
 
-for (var i = oscRaw.length - 120; i > 0; i--) {
-  if((i % 4) == 0) {
+for (var i = 40; i < oscRaw.length - 0; i += 1) {
+  if(1) {
     // write individual message boxes containting the osc packet
     console.log("#X msg " + start_x + " " + start_y + " " + oscRaw[i] + ";");
 
